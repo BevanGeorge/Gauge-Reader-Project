@@ -1,11 +1,4 @@
 # --- Project-specific ignores ---
-# Exclude unused scripts
-convert_to_pose.py
-ocr_utils.py
-
-# Model weights
-*.pt
-*.pth
 
 # Large datasets (comment out if you want to include sample data)
 crops/
