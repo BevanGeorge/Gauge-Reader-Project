@@ -1,0 +1,12 @@
+path: .
+
+train: train/images
+val:   valid/images
+test:  test/images
+
+nc: 5
+names: ['center','gauge','max','min','tip']
+
+# ----- pose settings -----
+kpt_shape: [5, 2]      # 5 keypoints, 2 dims each (x,y)
+flip_idx: [0, 1, 2, 3, 4]  # identity flip mapping

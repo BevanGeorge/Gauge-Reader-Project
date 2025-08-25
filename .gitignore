@@ -1,0 +1,28 @@
+# Exclude unused scripts
+convert_to_pose.py
+ocr_utils.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model weights (add more if needed)
+*.pt
+*.pth
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large datasets (comment out if you want to include sample data)
+crops/
+train/
+valid/
+test/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
