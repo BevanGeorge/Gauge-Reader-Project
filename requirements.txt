@@ -1,4 +1,4 @@
 opencv-python
 matplotlib
-paddleocr
-numpy
+OpenOCR
+openocr-python
