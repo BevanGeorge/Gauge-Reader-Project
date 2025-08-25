@@ -1,22 +1,11 @@
+# --- Project-specific ignores ---
 # Exclude unused scripts
 convert_to_pose.py
 ocr_utils.py
 
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-
-# Model weights (add more if needed)
+# Model weights
 *.pt
 *.pth
-
-# VSCode settings
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
 
 # Large datasets (comment out if you want to include sample data)
 crops/
@@ -24,5 +13,42 @@ train/
 valid/
 test/
 
-# Notebook checkpoints
+# --- Python ignores ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+.pytest_cache/
